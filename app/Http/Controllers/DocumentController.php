@@ -130,6 +130,7 @@ class DocumentController extends Controller
     public function update(Request $request, Document $document)
     {
         $request->validate([
+            'nik' => 'required|string',
             'title' => 'required|string|max:255',
             'category' => 'required|string|max:255',
             'related_party' => 'nullable|string|max:255',

@@ -74,7 +74,8 @@ How to run:
 2. Run `composer install`
 3. Copy `.env.example` to `.env`
 4. Run `php artisan key:generate`
-5. Run `php artisan serve`
+5. Run `npm run dev`
+6. Run `php artisan serve`
 >>>>>>> f69c2b0cabf9e2d0fe85394fa3b86d843241e946 -->
 # Digital-Archive
 Digital Archive, used to store important files to be archived digitally, making it easier for us to search for and find the required archives..
@@ -84,4 +85,5 @@ How to run:
 2. Run `composer install`
 3. Copy `.env.example` to `.env`
 4. Run `php artisan key:generate`
-5. Run `php artisan serve`
+5. Run `npm run dev`
+6. Run `php artisan serve`

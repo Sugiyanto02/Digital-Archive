@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('documents', function (Blueprint $table) {
-            $table->id();
+            $table->id();                    // NIK
             $table->string('title');              // Nama dokumen
             $table->string('category');           // Jenis (Kontrak, Perjanjian, dll)
             $table->string('related_party')->nullable(); // Pihak terkait
