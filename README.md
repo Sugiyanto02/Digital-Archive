@@ -84,4 +84,5 @@ How to run:
 2. Run `composer install`
 3. Copy `.env.example` to `.env`
 4. Run `php artisan key:generate`
-5. Run `php artisan serve`
+5. Run `npm run dev`
+6. Run `php artisan serve`
